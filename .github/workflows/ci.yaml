@@ -18,8 +18,6 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
     - name: Build with Maven
-      run: |
-        mvn clean
-        mvn -B package --file pom.xml
+      run: mvn clean test -B package --file pom.xml
     - name: Run the JAR file
       run: java -jar target/*.jar
