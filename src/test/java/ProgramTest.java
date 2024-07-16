@@ -7,7 +7,7 @@ public class ProgramTest {
 
     @Test
     public void TestSomar() {
-        int result = Main.somar(10, 10);
-        assertEquals(20, result);
+        int result = Main.somar(20, 20);
+        assertEquals(40, result);
     }
 }
