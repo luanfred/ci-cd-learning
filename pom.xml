@@ -26,13 +26,12 @@
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-jar-plugin</artifactId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>3.0.0</version>
                 <configuration>
-                    <archive>
-                        <manifest>
-                            <mainClass>org.example.Main</mainClass>
-                        </manifest>
-                    </archive>
+                    <includes>
+                        <include>**/Main.java</include>
+                    </includes>
                 </configuration>
             </plugin>
         </plugins>
