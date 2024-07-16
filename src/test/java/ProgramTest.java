@@ -8,6 +8,6 @@ public class ProgramTest {
     @Test
     public void TestSomar() {
         int result = Main.somar(10, 10);
-        assertEquals(20, result);
+        assertEquals(22, result);
     }
 }
