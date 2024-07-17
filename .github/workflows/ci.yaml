@@ -1,10 +1,8 @@
 name: Java CI with Maven
 
 on:
-  push:
-    branches: [ "main" ]
   pull_request:
-    branches: [ "main" ]
+    branches: [ "develop" ]
 
 jobs:
   check-application:
@@ -23,3 +21,5 @@ jobs:
       run: mvn clean test -B package --file pom.xml
     - name: Run the JAR file
       run: java -jar target/*.jar
+
+
