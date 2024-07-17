@@ -23,3 +23,6 @@ jobs:
       run: mvn clean test -B package --file pom.xml
     - name: Run the JAR file
       run: java -jar target/*.jar
+
+
+      
