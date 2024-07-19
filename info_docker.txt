@@ -1,0 +1,2 @@
+username: ci-cd-learning
+token: dckr_pat_qkFArUxYRteHF6-FaI28-Colrnk
